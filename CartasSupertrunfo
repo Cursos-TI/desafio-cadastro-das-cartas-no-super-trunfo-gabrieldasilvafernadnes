@@ -1,1 +1,64 @@
+#include <stdio.h>
 
+int main(){
+    char estado;
+    char codigo = 0;
+    char cidade[15];
+    int populacao;
+    float area;
+    float pib;
+    int number_turisticos;
+
+    // Pegando informações da primeira carta
+    printf("Numero da carta: ");
+    scanf("%d", &codigo);
+
+    printf("Estado (Uma letra de A a H): ");
+    scanf(" %c", &estado);
+
+    printf("Escreva nome de uma cidade: ");
+    scanf("%s", cidade);
+
+    printf("População: ");
+    scanf("%d", &populacao);
+
+    printf("Área: ");
+    scanf("%f", &area);
+
+    printf("PIB: ");
+    scanf("%f", &pib);
+
+    printf("Números de Pontos turisticos: ");
+    scanf("%d", &number_turisticos);
+
+    // Trancrevendo para o usúario
+    printf("Carta %d: \n Estado: %c \n Código: %c%i \n Nome da Cidade: %s \n População: %d \n Área: %f \n PIB: %f \n Número de Pontos Turísticos: %d \n", codigo, estado, estado, codigo, cidade, populacao, area, pib, number_turisticos);
+
+    // Pegando informações da segunda carta
+    printf("Numero da carta: ");
+    scanf("%d", &codigo);
+
+    printf("Estado (Uma letra de A a H): ");
+    scanf(" %c", &estado);
+
+    printf("Escreva nome de uma cidade: ");
+    scanf("%s", cidade);
+
+    printf("População: ");
+    scanf("%d", &populacao);
+
+    printf("Área: ");
+    scanf("%f", &area);
+
+    printf("PIB: ");
+    scanf("%f", &pib);
+
+    printf("Números de Pontos turisticos: ");
+    scanf("%d", &number_turisticos);
+
+    // Trancrevendo para o usúario
+    printf("Carta %d: \n Estado: %c \n Código: %c%i \n Nome da Cidade: %s \n População: %d \n Área: %f \n PIB: %f \n Número de Pontos Turísticos: %d", codigo, estado, estado, codigo, cidade, populacao, area, pib, number_turisticos);
+
+
+    return 0;
+}
