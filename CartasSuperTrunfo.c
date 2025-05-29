@@ -31,8 +31,12 @@ int main(){
     printf("Números de Pontos turisticos: ");
     scanf("%d", &number_turisticos);
 
-    // Trancrevendo para o usúario
+
+    // Trancrevendo para o usúario a sua carta
     printf("Carta %d: \n Estado: %c \n Código: %c%i \n Nome da Cidade: %s \n População: %d \n Área: %f \n PIB: %f \n Número de Pontos Turísticos: %d \n", codigo, estado, estado, codigo, cidade, populacao, area, pib, number_turisticos);
+
+    // Mostrando para o usúario que agora ele está criando a carta dois
+    ptinf("Criando sua segunda carta");
 
     // Pegando informações da segunda carta
     printf("Numero da carta: ");
