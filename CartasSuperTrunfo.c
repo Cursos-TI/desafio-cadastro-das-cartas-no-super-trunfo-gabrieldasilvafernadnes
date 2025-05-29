@@ -1,22 +1,64 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+int main(){
+    char estado;
+    char codigo = 0;
+    char cidade[15];
+    int populacao;
+    float area;
+    float pib;
+    int number_turisticos;
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    // Pegando informações da primeira carta
+    printf("Numero da carta: ");
+    scanf("%d", &codigo);
+
+    printf("Estado (Uma letra de A a H): ");
+    scanf(" %c", &estado);
+
+    printf("Escreva nome de uma cidade: ");
+    scanf("%s", cidade);
+
+    printf("População: ");
+    scanf("%d", &populacao);
+
+    printf("Área: ");
+    scanf("%f", &area);
+
+    printf("PIB: ");
+    scanf("%f", &pib);
+
+    printf("Números de Pontos turisticos: ");
+    scanf("%d", &number_turisticos);
+
+    // Trancrevendo para o usúario
+    printf("Carta %d: \n Estado: %c \n Código: %c%i \n Nome da Cidade: %s \n População: %d \n Área: %f \n PIB: %f \n Número de Pontos Turísticos: %d \n", codigo, estado, estado, codigo, cidade, populacao, area, pib, number_turisticos);
+
+    // Pegando informações da segunda carta
+    printf("Numero da carta: ");
+    scanf("%d", &codigo);
+
+    printf("Estado (Uma letra de A a H): ");
+    scanf(" %c", &estado);
+
+    printf("Escreva nome de uma cidade: ");
+    scanf("%s", cidade);
+
+    printf("População: ");
+    scanf("%d", &populacao);
+
+    printf("Área: ");
+    scanf("%f", &area);
+
+    printf("PIB: ");
+    scanf("%f", &pib);
+
+    printf("Números de Pontos turisticos: ");
+    scanf("%d", &number_turisticos);
+
+    // Trancrevendo para o usúario
+    printf("Carta %d: \n Estado: %c \n Código: %c%i \n Nome da Cidade: %s \n População: %d \n Área: %f \n PIB: %f \n Número de Pontos Turísticos: %d", codigo, estado, estado, codigo, cidade, populacao, area, pib, number_turisticos);
+
 
     return 0;
 }
